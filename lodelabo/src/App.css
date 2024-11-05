@@ -1,0 +1,97 @@
+#root {
+  display: flex;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.login-form {
+  width: 300px;
+  margin: 120px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.login-user {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 3px;
+  font-size: 14px;
+}
+
+.login-user input[type="text"],
+.login-user input[type="password"] {
+  width: 290px;
+  padding: 15px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  background-color: white;
+  border-radius: 5px;
+  font-size: 17px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.buttons-users {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.button-login,
+.button-logout {
+  width: 130px;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button-login {
+  background-color: #0866FF;
+  color: white;
+}
+
+.button-logout {
+  background-color: #f5311f;
+  color: white;
+}
+
+.button-login:hover {
+  background-color: #0057e2;
+}
+
+.button-logout:hover {
+  background-color: #aa1e14;
+}
+
+.link-user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.link-user li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.link-user li a {
+  text-decoration: none;
+  color: #0866FF;
+}
+
+.link-user li a:hover {
+  text-decoration: underline;
+}
+
