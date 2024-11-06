@@ -1,0 +1,118 @@
+#style-all {
+  background: url("../public/images/background-app.jpg");
+  background-size: cover;
+  background-position: center 810px;
+  height: 200px;
+}
+
+#root {
+  width: 100%;
+}
+
+.title-body {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  color: #ffff00;
+  font-weight: bold;
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.container-form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.login-form {
+  width: 300px;
+  margin-right: 70px;
+  margin-top: 25px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #e4e4e4;
+  box-shadow: 10px 15px 35px rgba(0, 0, 0, 0.9);
+  font-family: Arial, sans-serif;
+  margin-bottom: 8px;
+}
+
+.login-user {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 3px;
+  font-size: 14px;
+}
+
+.login-user input[type="text"],
+.login-user input[type="password"] {
+  width: 290px;
+  padding: 15px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border-radius: 5px;
+  font-size: 17px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.buttons-users {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.button-login,
+.button-logout {
+  width: 130px;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button-login {
+  background-color: #0866FF;
+  color: white;
+}
+
+.button-logout {
+  background-color: #f5311f;
+  color: white;
+}
+
+.button-login:hover {
+  background-color: #0057e2;
+}
+
+.button-logout:hover {
+  background-color: #aa1e14;
+}
+
+.link-user {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 170px;
+  margin-top: 5px;
+}
+
+.link-user li {
+  list-style: none;
+}
+
+.link-user li a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bolder;
+}
+
+.link-user li a:hover {
+  text-decoration: underline;
+}
